@@ -1,5 +1,3 @@
-Here's a complete `README.md` ready to paste into `hil-rig/README.md`:
-
 ```markdown
 # HIL-Rig
 
