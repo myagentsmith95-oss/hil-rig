@@ -1,0 +1,17 @@
+name: pixel6
+screen:
+  width: 1080
+  height: 2400
+capture:
+  width: 471      # active-area size as measured by the capture card
+  height: 960
+home: [235, 920]  # capture-coords of the home button (calibrate later)
+
+pairing:
+  swipe:          # pull down the notification shade: visible in almost any state
+    x1: 235
+    y1: 48
+    x2: 235
+    y2: 576
+    ms: 500
+  motion_threshold: 5.0   # mean gray-diff that counts as "this card moved"

@@ -27,8 +27,8 @@ class CaptureDevice:
 
 @dataclass
 class RigDevice:
-    name: str
-    config: dict
+    name: str                       # slot name, e.g. "rig-0"
+    model_name: str = ""            # reference to models/<name>.yaml
     esp32: Esp32Device | None = None
     capture: CaptureDevice | None = None
 

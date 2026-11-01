@@ -1,9 +1,0 @@
-name: pixel6
-esp32_serial: "5C63002523"
-capture_port: "pci-0000:0a:00.0-usb-0:1.4:1.0"   # verify which card is pixel6
-screen:
-  width: 1080
-  height: 2400
-  capture_w: 471
-  capture_h: 960
-home_coord: [540, 2280]
