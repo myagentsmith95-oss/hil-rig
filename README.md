@@ -253,3 +253,13 @@ A few notes so you can tailor it:
 - **Serial number & paths** in the `devices/pixel6.yaml` example are placeholders from our earlier sessions — swap in your real `esp32_serial` and `capture_port`.
 - The **Roadmap** reflects where we are: discovery is done, vision API + pytest fixtures are next.
 - If you'd like, I can also write the companion **`docs/protocol.md`** (a fuller spec of the serial protocol) and a **`.gitignore`** to go with this. Just say the word.
+
+
+```lsusb``` good command to start testing if something is not working after whole system reboot
+
+#### 1. ESP32 boards present (serial + port)
+```ls -l /dev/serial/by-id/ | grep 1a86```
+
+#### 2. Capture cards present (physical port → video nodes)
+```ls -l /dev/v4l/by-path/ | grep -v usbv2```
+
