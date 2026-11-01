@@ -1,4 +1,4 @@
 slot: rig-0
 model: pixel6
-esp32_serial: "5C63002523"
-capture_port: "pci-0000:0a:00.0-usb-0:1.1.1:1.0"
+esp32_serial: "5C63001367"
+capture_port: "pci-0000:0a:00.0-usb-0:2:1.0"

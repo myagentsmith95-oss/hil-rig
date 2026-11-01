@@ -1,0 +1,4 @@
+slot: rig-1
+model: pixel6
+esp32_serial: "5C63002523"
+capture_port: "pci-0000:00:1d.0-usb-0:1.3.1.1:1.0"
